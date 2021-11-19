@@ -30,8 +30,8 @@ function App() {
     if (login) {
       setUsername(username + "👋");
     }
-
-  }, [username])
+//login
+  }, [username, login])
 
 
   return (
