@@ -1,7 +1,7 @@
 import './App.css';
 import { useState, useEffect } from 'react'; 
 import UserAccountPage from './UserAccountPage'
-import AccountTimer from './AccountTimer';
+// import AccountTimer from './AccountTimer';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
 
     console.log("This side effect is running every time the App component renders (AKA *any* time *any* piece of state updates!")
 
-  })
+  },[])
 
 
   useEffect(() => {
