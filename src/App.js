@@ -31,7 +31,7 @@ function App() {
       setUsername(username + "👋");
     }
 
-  }, [login])
+  }, [username])
 
 
   return (
